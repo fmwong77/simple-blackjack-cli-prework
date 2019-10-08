@@ -59,7 +59,7 @@ def runner
   welcome()
   initial_round()
   prompt_user()
-  input = user_input()
+  input = get_user_input()
   if input == "s"
     user_input()
   elsif input == "h"
